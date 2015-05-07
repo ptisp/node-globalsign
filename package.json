@@ -1,0 +1,36 @@
+{
+  "name": "globalsign",
+  "description": "GLOBALSIGN API node client.",
+  "version": "0.0.1",
+  "author": {
+    "name": "PTisp",
+    "email": "dev@ptisp.pt"
+  },
+  "maintainers": [
+    {
+      "name": "p3drompp",
+      "email": "pedro.mpp@gmail.com"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Pedro Pacheco",
+      "email": "pedro.mpp@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ptisp/node-globalsign.git"
+  },
+  "keywords": [
+    "globalsign"
+  ],
+  "dependencies": {
+    "request": "2.21.x",
+    "soap": "0.8.x"
+  },
+  "main": "./lib/globalsignapi",
+  "engines": {
+    "node": ">= 0.8"
+  }
+}
