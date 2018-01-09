@@ -1,7 +1,7 @@
 {
   "name": "globalsign",
   "description": "GLOBALSIGN API node client.",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "author": {
     "name": "PTisp",
     "email": "dev@ptisp.pt"
@@ -26,8 +26,10 @@
     "globalsign"
   ],
   "dependencies": {
+    "async": "^2.6.0",
+    "csr-gen": "^0.2.1",
     "request": "2.21.x",
-    "soap": "0.8.x"
+    "soap": "^0.8.0"
   },
   "main": "./lib/globalsignapi",
   "engines": {
